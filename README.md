@@ -2,3 +2,5 @@
 
 IMPORTANTE ---> troca de funcionalidade fácil: ao invés de salvar as notícias no banco de dados, implementamos a
 página races, que mostra os resultados das corridas
+
+LINK DO DEPLOY DO FRONT: https://projeto-3-verstappen-fork.onrender.com
