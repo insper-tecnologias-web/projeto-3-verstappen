@@ -8,3 +8,36 @@ Link Projeto (Cronograma): https://github.com/orgs/insper-tecnologias-web/projec
 Link Fluxo de Telas (Figma): https://www.figma.com/design/pz0B7qRmp5zdQJccjzsBC3/Verstappen?node-id=0-1&t=hg02EJCq7EAdfj4A-1
 
 LINK DO DEPLOY DO FRONT: https://projeto-3-verstappen-fork.onrender.com
+
+LINK DO DEPLOY DO BACK: https://projeto-3-parte-2-verstappen-fork.onrender.com
+
+## Link da imagem do Dockerhub
+
+    https://hub.docker.com/repository/docker/gustavotakahashi/f1club2024/general
+
+## Rodar Projeto em usando a Imagem do Docker Hub
+
+    Baixar imagem 
+        $ docker pull gustavotakahashi/f1club2024:latest
+        $ docker compose up -d
+        $ docker exec -it f1club2024-web python manage.py migrate
+
+    Backend  ficará disponível em http://localhost:8000
+
+
+## Comandos
+
+    Aplicar Migrações
+        $ docker exec -it f1club2024-web python manage.py migrate
+
+    Parar os Containers
+        $ docker-compose down
+
+    Reiniciar os Containers
+        $ docker-compose up --build
+
+    Acessar Logs
+        $ docker-compose logs
+
+    Criar Superusuário
+        $ docker exec -it f1club2024-web python manage.py createsuperuser
