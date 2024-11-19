@@ -3,4 +3,5 @@
 IMPORTANTE ---> troca de funcionalidade fácil: ao invés de salvar as notícias no banco de dados, implementamos a
 página races, que mostra os resultados das corridas
 
+Link Fluxo de Telas (Figma): https://www.figma.com/design/pz0B7qRmp5zdQJccjzsBC3/Verstappen?node-id=0-1&t=hg02EJCq7EAdfj4A-1
 LINK DO DEPLOY DO FRONT: https://projeto-3-verstappen-fork.onrender.com
